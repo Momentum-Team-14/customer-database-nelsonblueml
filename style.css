@@ -1,0 +1,47 @@
+body {
+  /*font-family: Arial, Helvetica, sans-serif;*/
+  /*padding-left: 2rem;*/
+}
+
+header {
+  color: darkblue;
+  font-size: 1.5rem;
+}
+
+#customerContainer {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.customer {
+  margin: 1.5rem 1rem;
+}
+
+.photo > img {
+  width: 9rem;
+  border-radius: 5rem;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding: 0.6rem 0 0.4rem;
+  color: darkblue;
+}
+
+.email {
+  color: #777;
+}
+
+.address1 {
+  padding: 0.4rem 0 0 0;
+}
+
+.address2 {
+  /*padding: 0 0 0.2rem 0;*/
+}
+
+.dob {
+  padding: 0.4rem 0;
+}
